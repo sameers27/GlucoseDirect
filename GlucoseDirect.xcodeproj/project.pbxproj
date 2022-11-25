@@ -1373,7 +1373,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"App/Preview Content\"";
-				DEVELOPMENT_TEAM = "${DEVELOPMENT_TEAM}";
+				DEVELOPMENT_TEAM = FKZ3F49442;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = App/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
@@ -1384,6 +1384,7 @@
 				);
 				MARKETING_VERSION = "${APP_VERSION}";
 				PRODUCT_BUNDLE_IDENTIFIER = "${PRODUCT_BUNDLE_IDENTIFIER}";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = "com.siddiqui.libre-direct";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1402,7 +1403,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"App/Preview Content\"";
-				DEVELOPMENT_TEAM = "${DEVELOPMENT_TEAM}";
+				DEVELOPMENT_TEAM = FKZ3F49442;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = App/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
@@ -1413,6 +1414,7 @@
 				);
 				MARKETING_VERSION = "${APP_VERSION}";
 				PRODUCT_BUNDLE_IDENTIFIER = "${PRODUCT_BUNDLE_IDENTIFIER}";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = "com.siddiqui.libre-direct";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1431,11 +1433,12 @@
 				CODE_SIGN_ENTITLEMENTS = Widgets/Widgets.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "${DEVELOPMENT_TEAM}";
+				DEVELOPMENT_TEAM = FKZ3F49442;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Widgets/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Widgets;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1444,6 +1447,7 @@
 				);
 				MARKETING_VERSION = "${APP_VERSION}";
 				PRODUCT_BUNDLE_IDENTIFIER = "${PRODUCT_BUNDLE_IDENTIFIER}.Widgets";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = "com.siddiqui.libre-direct.Widgets";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -1464,11 +1468,12 @@
 				CODE_SIGN_ENTITLEMENTS = Widgets/Widgets.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "${DEVELOPMENT_TEAM}";
+				DEVELOPMENT_TEAM = FKZ3F49442;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Widgets/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Widgets;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1477,6 +1482,7 @@
 				);
 				MARKETING_VERSION = "${APP_VERSION}";
 				PRODUCT_BUNDLE_IDENTIFIER = "${PRODUCT_BUNDLE_IDENTIFIER}.Widgets";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = "com.siddiqui.libre-direct.Widgets";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
